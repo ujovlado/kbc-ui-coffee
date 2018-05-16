@@ -3,7 +3,7 @@ sudo: false
 language: php
 
 script:
-- run.sh
+  - ./run.sh
 
 deploy:
   provider: pages
