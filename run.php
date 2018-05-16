@@ -3,6 +3,8 @@
 echo <<<MD
 # Coffeescript in kbc-ui
 
+Daily stats for `.coffee` files in [kbc-ui](https://github.com/keboola/kbc-ui) repository.
+
 | date | .coffee files | .coffee files with React components |
 | --- | --- | --- |\n
 MD;
