@@ -1,0 +1,16 @@
+sudo: false
+
+language: php
+
+script:
+- run.sh
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token:
+    secure: aJgfwjJVKFP2xr0OhW46Z+3tBChsQlJK6o7cK+U5wI+FryyiwjxFzrhwU7QqOR4RXVcMc4PgnEZ3lChatWAQQcncR6XgM/+PyL59w/1uH1Z2dYr4z/t1xgLWvk/Ifmdj9AedNzk1GVT3ilKQCoZsXVFh26tIi7mHzMB+9fVQfWbqgSQb75qKKeKEIlnaYkyvS369b/gMl6q1rDBC2BwjviGE+tB9l9kJKkx7n2PbjUMCWVJKAcZEafnUwRTgsk1oP/LUIiqURah5mjjJC37bXIVnt62kujEY8BE3l4/BFRCtttZmIFzv/Fo+6Kgkb5/y/eCnqBFP7z/j1kOWfaYyeW2A/IIAqwV5NKKedoJHgH14v+ArhBlO2djFkH3TUVW1yHppCgRefDP0q35Vc68djbSqQIOsKNNI7RXeeCbUBWJP3WhsFwD7R1Dgq3779I7mZZscc0RBl3+xVLg4zmNzBQoOHZ3oZtmXReecjdOztao5WoZnAYAMZQz2IwE9sHrvZXXv7xonUumBxanv20YqonsrtXnYcbsDnLheRbGGi9iCZUfryaV7DpsIIWDWeOVQi0rH41MMVOPZ/oRVLS9eAFzgyXCixrVfCT67X+dVRFtvfXWp+HbFxZElkZ5SHXf6EJUT0QyPRTbdvwsS1xkymj9EiAFzVScfuhAbnAKQnb0=
+  keep-history: true
+  local-dir: gh-pages
+  on:
+    branch: master
