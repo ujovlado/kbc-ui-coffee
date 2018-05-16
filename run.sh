@@ -2,7 +2,7 @@
 
 set -e
 
-rm -rf kbc-ui
+rm -rf kbc-ui gh-pages
 
 git clone --depth 1 https://github.com/keboola/kbc-ui.git kbc-ui
 git clone --depth 1 --branch gh-pages https://github.com/ujovlado/kbc-ui-coffee.git gh-pages
