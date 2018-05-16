@@ -9,7 +9,7 @@ MD;
 
 $stats = [];
 
-foreach (glob('data/*.json') as $file) {
+foreach (glob('gh-pages/*.json') as $file) {
     $json = file_get_contents($file);
     $data = json_decode($json, true);
     $stats[$data['date']] = $data;
