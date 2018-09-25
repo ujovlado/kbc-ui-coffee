@@ -4,6 +4,7 @@ Daily stats for `.coffee` files in [kbc-ui](https://github.com/keboola/kbc-ui) r
 
 | date | .coffee files | .coffee files with React components |
 | --- | --- | --- |
+|2018-09-25 | 261 | 201|
 |2018-09-24 | 265 | 201|
 |2018-09-23 | 265 | 201|
 |2018-09-22 | 265 | 201|
